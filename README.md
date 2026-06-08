@@ -1,12 +1,15 @@
 # OpenClash（基于Mihomo/Meta内核）配置文件 
 
 # ⚠️配置文件根据我个人使用习惯修改优化，根据网络环境按需使用⚠️
+
 ### 1️⃣ 此套配置文件在保持丰富分流规则的同时，尽量降低路由器的处理器和内存开销<br>
+
 ### 2️⃣ OpenClash系统配置文件在原基础<br>
   ##### 加入了Github加速CDN，加快[Meta]内核和插件下载速度；<br>
   ##### 修改节点延迟切换容差为30毫秒 (ms)<br>
   ##### 默认打开Fake-IP运行模式TUN<br>
   ##### IPv6流量代理 默认关闭<br>
+  
 ### 3️⃣ Clash-Cloud.yaml运行配置文件保留了丰富的业务分流组：<br>
   ##### AI 工具链：ChatGPT, Gemini, Copilot, Perplexity, Claude, Meta AI, Grok, Groq<br>
   ##### 日常与社群：GitHub, Telegram, Reddit, WhatsApp, Facebook<br>
@@ -18,12 +21,15 @@
   #### 保持原源码可以同时使用多个订阅URL<br>
 
 # 🛠️ 使用指南
+# 
 ✳️先打包下载本项目文件，OpenClash系统配置文件里面的openclash，单独下载会变成.txt后缀名，请直接删除.txt即可
+# 
 ## ⑴ 替换OpenClash系统配置文件
 #### ① iStoreOS系统通过左侧菜单  [服务] - [易有云文件管理器] -  [本地文件管理器]
 #### 找到文件路径 /etc/config 直接上传 openclash 文件覆盖替换
 #### ② OpenWRT系统请通过SSH工具：MobaXterm/FinalShell 链接路由器后台
 #### 在工具左侧文件管理器 找到文件路径 /etc/config 直接上传 openclash 文件覆盖替换
+
 ## ⑵ 上传yaml运行配置文件/修改机场订阅URL
 #### ① 上传yaml运行配置文件
 #### 软路由系统通过左侧菜单  [服务] - [OpenClash] -  [运行状态] 选项主页
@@ -53,12 +59,11 @@ proxy-providers:
 ### 建议最低配置X86架构 双核J1900 + 2GB内存 和 iStoreOS适配机型
 ### ARM架构硬改软路由系统-最优配置：四核处理器+1GB内存（最低512MB内存）
 ### ARM路由推荐型号：友善全系列、红米AX6000、飞利浦HY3000、斐讯N1（旁路）
-
-## 墙裂推荐-YIY云  [【点击进入】](https://yiy.one/register?codes=8B70FD)  - 地区测速500M/s+；千兆线路；稳定不掉速；延时低；看奈飞首选;晚高峰速度快。
-
-## 墙裂推荐2-良心云  [【点击进入】](https://xn--9kqz23b19z.com/#/register?code=BFJnlYB0)  - 月付低至6元；年付低至72元；🚀 三网超低延迟，畅享极速网络体验；支持同时在线20台设备使用；高达3Gbps带宽，晚高峰观看8K 60fps不卡顿；解锁三大流媒体和HK电视台
-
-
+# 
+# 墙裂推荐-YIY云  [【点击进入】](https://yiy.one/register?codes=8B70FD)  - 地区测速500M/s+；千兆线路；稳定不掉速；延时低；看奈飞首选;晚高峰速度快。<br>
+# 
+# 墙裂推荐2-良心云  [【点击进入】](https://xn--9kqz23b19z.com/#/register?code=BFJnlYB0)  - 月付低至6元；年付低至72元；🚀 三网超低延迟，畅享极速网络体验；支持同时在线20台设备使用；高达3Gbps带宽，晚高峰观看8K 60fps不卡顿；解锁三大流媒体和HK电视台<br>
+# 
 # 最后要感谢 [【安格视界】](https://github.com/liandu2024/clash) 提供源码文件
 
 
