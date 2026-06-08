@@ -178,7 +178,7 @@ config dns_servers
 	option disable_ipv6 '0'
 
 config dns_servers
-	option enabled '1'
+	option enabled '0'
 	option group 'fallback'
 	option ip '9.9.9.9'
 	option type 'udp'
